@@ -1,0 +1,36 @@
+/* Golobal */
+:root {
+  /* Clor */
+  --color-white: #ffffff;
+  --color-light-white: #eeeeee;
+  --color-dark-white: #bdbdbd;
+  --color-pink: #fe919d;
+  --color-dark-pink: #ff6863;
+  --color-black: #4d4d4d;
+  --color-dark-gray: #4d4d4d;
+  --color-gray: #616161;
+  --color-light-gray: #7c7979;
+  --color-blue: #73aace;
+  --color-yellow: #fff7d1;
+  --color-orange: #feb546;
+  --color-black: #000000;
+
+  /* Font size */
+  --font-large: 48px;
+  --font-medium: 25px;
+  --font-regular: 18px;
+  --font-small: 16px;
+  --font-micro: 14px;
+
+  /* Font weight */
+  --weight-bold: 700;
+  --weight-semi-bold: 600;
+  --weight-reular: 400;
+
+  /* Size */
+}
+
+/*Univarsal tags  */
+* {
+  box-sizing: border-box;
+}
