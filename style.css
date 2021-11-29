@@ -74,7 +74,7 @@ h1 {
 }
 
 h2 {
-  font-size: var(--font-regular);
+  font-size: var(--font-medium);
   font-weight: var(--weight-semi-bold);
   color: var(--color-black);
   margin: 8px 0;
@@ -366,4 +366,64 @@ p {
   margin-left: -12px;
   margin-top: 8px;
   background-color: var(--color-dark-white);
+}
+
+/* Certificates */
+#certificates {
+  background-color: var(--color-light-white);
+}
+
+.certificates {
+  margin: 90px;
+}
+
+.certificate {
+  display: flex;
+  margin: 32px 0;
+}
+
+.certificate__logo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 12px;
+}
+
+.certificate__logo:nth-child(odd) {
+  margin-right: 40px;
+}
+
+.certificate__logo:nth-child(even) {
+  margin-left: 40px;
+}
+
+.certificate__descreption {
+  padding: 9px;
+  background-color: var(--color-white);
+  border-radius: var(--size-border-radius);
+}
+
+/* Contact */
+#contact {
+  background-color: var(--color-pink);
+}
+
+.contact__title,
+.contact__email .contact__rights {
+  color: var(--color-white);
+}
+
+.contact__title {
+  margin: 32px 0;
+}
+
+.contact__link {
+  font-size: var(--font-large);
+  margin: 24px 0;
+}
+
+.contact__link i:hover {
+  transform: scale(1.1);
+  color: var(--color-yellow);
+  transition: all --animation-duration ease-in;
 }
