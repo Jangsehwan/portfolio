@@ -38,15 +38,15 @@
  - 프론트엔드(html, css, javacript)
  - 백엔드(spring, django)
  
- - 경력
+- 경력
   - 학교 
   - 자격증
   - 강의(특강) 
   
- -기술(어떤언어를 쓸 수 있는지)
+- 기술(어떤언어를 쓸 수 있는지)
   - 언어
-   - JAVA
-   - JAVACRIPT
+    - JAVA
+    - JAVACRIPT
   - 툴(VSCODE, ECLIPS, INTELLIJ)
   - 기타 
 
