@@ -96,12 +96,19 @@ p {
 
 /* Navbar */
 #navbar {
+  position: fixed;
+  width: 100%;
   display: flex;
   justify-content: space-between;
-  background-color: var(--color-pink);
   align-items: center;
-  color: var(--color-white);
+  color: transparent;
   padding: 16px;
+  transition: all var(--animation-duration) ease-in-out;
+}
+
+#navbar.navbar--dark {
+  background-color: var(--color-pink);
+  padding: 8px;
 }
 
 .navbar__menu {
@@ -111,11 +118,13 @@ p {
 .navbar__logo {
   font-size: var(--font-medium);
   font-weight: var(--weight-semi-bold);
+  color: var(--color-white);
 }
 
 .navbar__menu__item {
   padding: 8px 12px;
   margin: 0 4px;
+  color: var(--color-white);
   cursor: pointer;
   border-radius: var(--size-border-radius);
 }
@@ -143,6 +152,7 @@ p {
   background: url("imgs/homebackground-200515-154505.png") center/cover
     no-repeat;
   padding: 40px;
+  padding-top: 120px;
   text-align: center;
 }
 
