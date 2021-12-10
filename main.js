@@ -51,6 +51,16 @@ arrowUp.addEventListener('click', () => {
    scrollIntoView('#home');
 });
 
+// Projects
+const workBtnContainer = document.querySelector('.work__categories');
+const projectsContainer =  document.querySelector('.work__projects');
+const projects = document.querySelectorAll('.project');
+workBtnContainer.addEventListener('click', (event) => {
+   const filter = event.target.dataset.filter;
+   console.log(filter);
+});
+
+
 
 function scrollIntoView(selector) {
    const scrollTo = document.querySelector(selector);
