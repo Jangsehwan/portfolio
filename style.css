@@ -183,6 +183,7 @@ p {
 /* Section common */
 .section {
   padding: 50px;
+  padding-top: 70px;
   text-align: center;
   margin: auto;
 }
@@ -491,6 +492,7 @@ p {
     --font-small: 14px;
     --font-micro: 12px;
   }
+
   .navbar__toggle-btn {
     display: block;
     top: 16px;
@@ -507,6 +509,7 @@ p {
   #navbar.navbar--dark {
     padding: 16px;
   }
+
   .navbar__menu {
     flex-direction: column;
     text-align: center;
