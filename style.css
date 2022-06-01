@@ -67,6 +67,7 @@ button {
 
 /* Typorgraphy */
 h1 {
+  font-weight: var(--weight-semi-bold);
   font-size: var(--font-large);
   font-weight: var(--weight-bold);
   color: var(--color-black);
@@ -76,14 +77,14 @@ h1 {
 h2 {
   font-size: var(--font-medium);
   font-weight: var(--weight-semi-bold);
-  color: var(--color-black);
+  color: var(--color-dark-gray);
   margin: 8px 0;
 }
 
 h3 {
   font-size: var(--font-regular);
   font-weight: var(--font-regular);
-  color: var(--color-black);
+  color: var(--color-dark-gray);
   margin: 8px 0;
 }
 
@@ -150,8 +151,9 @@ p {
 
 /* Home */
 #home {
-  background: url("imgs/homebackground-200515-154505.png") center/cover
-    no-repeat;
+  /* background: url("imgs/homebackground-200515-154505.png") center/cover
+    no-repeat; */
+  background: var(--color-pink);
   padding: 40px;
   padding-top: 120px;
   text-align: center;
@@ -239,8 +241,9 @@ p {
 }
 
 .certificate__name {
-  color: var(--color-light-gray);
-  font-size: var(--font-small);
+  color: var(--color-dark-gray);
+  font-size: var(--font-medium);
+  font-weight: bold;
   margin: 0 16px;
   text-align: left;
 }
@@ -255,6 +258,10 @@ p {
   background-color: var(--color-light-gray);
   color: var(--color-light-white);
   margin: 20px 0;
+}
+
+.skill_content {
+  font-size: medium;
 }
 
 .skillset__title {
@@ -451,6 +458,10 @@ p {
 
 .contact__title {
   margin: 32px 0;
+}
+
+.contact__email {
+  columns: var(--color-white);
 }
 
 .contact__link {
